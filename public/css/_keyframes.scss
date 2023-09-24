@@ -1,0 +1,465 @@
+@-webkit-keyframes sky {
+
+	0% {
+		background-color: #525252;
+	}
+	
+	33% {
+		background-color: #6293e5;
+	}
+
+	66% {
+		background-color: #6293e5;
+	}
+
+	100% {
+		background-color: #525252;
+	}
+
+}
+
+@-moz-keyframes sky {
+
+	0% {
+		background-color: #525252;
+	}
+	
+	33% {
+		background-color: #6293e5;
+	}
+
+	66% {
+		background-color: #6293e5;
+	}
+
+	100% {
+		background-color: #525252;
+	}
+
+}
+
+@-ms-keyframes sky {
+
+	0% {
+		background-color: #525252;
+	}
+	
+	33% {
+		background-color: #6293e5;
+	}
+
+	66% {
+		background-color: #6293e5;
+	}
+
+	100% {
+		background-color: #525252;
+	}
+
+}
+
+@keyframes sky {
+
+	0% {
+		background-color: #525252;
+	}
+	
+	33% {
+		background-color: #6293e5;
+	}
+
+	66% {
+		background-color: #6293e5;
+	}
+
+	100% {
+		background-color: #525252;
+	}
+
+}
+
+@-webkit-keyframes ground {
+
+	0% {
+		background: #6c5228;
+	}
+	
+	33% {
+		background: #48a037;
+	}
+
+	66% {
+		background: #48a037;
+	}
+
+	100% {
+		background: #6c5228;
+	}
+
+}
+
+@-moz-keyframes ground {
+
+	0% {
+		background: #6c5228;
+	}
+	
+	33% {
+		background: #48a037;
+	}
+
+	66% {
+		background: #48a037;
+	}
+
+	100% {
+		background: #6c5228;
+	}
+
+}
+
+@-ms-keyframes ground {
+
+	0% {
+		background: #6c5228;
+	}
+	
+	33% {
+		background: #48a037;
+	}
+
+	66% {
+		background: #48a037;
+	}
+
+	100% {
+		background: #6c5228;
+	}
+
+}
+
+@keyframes ground {
+
+	0% {
+		background: #6c5228;
+	}
+	
+	33% {
+		background: #48a037;
+	}
+
+	66% {
+		background: #48a037;
+	}
+
+	100% {
+		background: #6c5228;
+	}
+
+}
+
+@-webkit-keyframes sunrise {
+
+	0% {
+		bottom: 0;
+		left: 340px;
+		background: #f00;
+	}
+	
+	33% {
+		bottom: 340px;
+		left: 340px;
+		background: #ffd630;
+	}
+
+	66% {
+		bottom: 340px;
+		left: 40px;		
+		background: #ffd630;
+	}
+
+	100% {
+		bottom: 0;
+		left: 40px;
+		background: #f00;
+	}
+
+}
+
+@-moz-keyframes sunrise {
+
+	0% {
+		bottom: 0;
+		left: 340px;
+		background: #f00;
+		
+	}
+	
+	33% {
+		bottom: 340px;
+		left: 340px;
+		background: #ffd630;
+	}
+
+	66% {
+		bottom: 340px;
+		left: 40px;
+		background: #ffd630;
+	}
+
+	100% {
+		bottom: 0;
+		left: 40px;
+		background: #f00;
+	}
+
+}
+
+@-ms-keyframes sunrise {
+
+	0% {
+		bottom: 0;
+		left: 340px;
+		background: #f00;
+		
+	}
+	
+	33% {
+		bottom: 340px;
+		left: 340px;
+		background: #ffd630;
+	}
+
+	66% {
+		bottom: 340px;
+		left: 40px;
+		background: #ffd630;
+	}
+
+	100% {
+		bottom: 0;
+		left: 40px;
+		background: #f00;
+	}
+
+}
+
+@keyframes sunrise {
+
+	0% {
+		bottom: 0;
+		left: 340px;
+		background: #f00;
+	}
+	
+	33% {
+		bottom: 340px;
+		left: 340px;
+		background: #ffd630;
+	}
+
+	66% {
+		bottom: 340px;
+		left: 40px;
+		background: #ffd630;
+	}
+
+	100% {
+		bottom: 0;
+		left: 40px;
+		background: #f00;
+	}
+
+}
+
+@-webkit-keyframes cloud {
+
+	0% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	50% {
+		opacity: 1;
+		left: 60px;
+	}
+	
+	75% {
+		opacity: 1;
+		left: 100px;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 500px;
+	}
+
+}
+
+@-moz-keyframes cloud {
+
+	0% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	50% {
+		opacity: 1;
+		left: 60px;
+	}
+	
+	75% {
+		opacity: 1;
+		left: 100px;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 500px;
+	}
+
+}
+
+@-ms-keyframes cloud {
+
+	0% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	50% {
+		opacity: 1;
+		left: 60px;
+	}
+	
+	75% {
+		opacity: 1;
+		left: 100px;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 500px;
+	}
+
+}
+
+@keyframes cloud {
+
+	0% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	50% {
+		opacity: 1;
+		left: 60px;
+	}
+	
+	75% {
+		opacity: 1;
+		left: 100px;
+	}
+	
+	100% {
+		opacity: 0;
+		left: 500px;
+	}
+
+}
+
+@-webkit-keyframes moon {
+
+	0% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	50% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	90% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50px;
+	}
+
+}
+
+@-moz-keyframes moon {
+
+	0% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	50% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	90% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50px;
+	}
+
+}
+
+@-ms-keyframes moon {
+
+	0% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	50% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	90% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50px;
+	}
+
+}
+
+@keyframes moon {
+
+	0% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	50% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	90% {
+		opacity: 0;
+		left: -100px;
+	}
+	
+	100% {
+		opacity: 1;
+		left: 50px;
+	}
+
+}

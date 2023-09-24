@@ -1,0 +1,115 @@
+#exit-featured, .exit-featured {
+	display: block;
+	top: -54px;
+	right: 4px;
+	@media (min-width: 900px) {
+		top: -4px;
+		right: -41px;
+	}
+	z-index: -1;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	right: 100%;
+	width: 100%;
+	transition: .2s all linear;
+	margin: 1em;
+	margin-right: auto;
+	text-align: center;
+	@media (min-width: 680px) {
+		position: relative;
+		bottom: auto;
+		right: auto;
+		width: auto;
+		text-align: left;
+		display: none;
+		&.home {
+			display: block;
+		}
+	}
+	&.open {
+		right: 0;
+		z-index: 1001;
+	}
+	.social {
+		position: relative;
+		display:block;
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		text-indent: -9999px;
+		opacity: 1;
+		margin-bottom: 10px; 
+		&.facebook {
+			background: url(../img/social-icons/facebook.png) 0 0 no-repeat;
+			background-color: $magenta;
+			background-size: 80%;
+			background-position: center;
+		}
+		&.google {
+			background: url(../img/social-icons/google.png) 0 0 no-repeat;
+			background-color: $magenta;
+			background-size: 80%;
+			background-position: center;
+		}
+		&.instagram {
+			background: url(../img/social-icons/instagram.png) 0 0 no-repeat;
+			background-color: $magenta;
+			background-size: 80%;
+			background-position: center;
+		}
+		&.vimeo {
+			background: url(../img/social-icons/vimeo.png) 0 0 no-repeat;
+			background-color: $magenta;
+			background-size: 80%;
+			background-position: center;
+		}
+		&.youtube {
+			background: url(../img/social-icons/youtube.png) 0 0 no-repeat;
+			background-color: $magenta;
+			background-size: 80%;
+			background-position: center;
+		}
+		&:hover {
+			opacity: .8;
+		}
+		@media (min-width: 680px) {
+			display: inline-block;
+		}
+		background-position: center center;
+	}
+	h4 {
+		display: none;
+		line-height: 50px;
+		vertical-align: bottom;
+		margin-left: 2em;
+		font-family: "typograph_prosemibold",Helvetica,sans-serif;
+		.whitetext {
+			color: white;
+		}
+		.silvertext {
+			color: #555;
+		}
+		@media (min-width: 680px) {
+			display: inline-block;
+			font-size: 1em;
+		}
+		@media (min-width: 800px) {
+			font-size: 1.1em;
+		}
+	}
+}
+
+.close-featured {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: $magenta;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	font-size: 2em;
+	border-radius: 50%;
+}

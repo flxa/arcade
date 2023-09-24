@@ -1,0 +1,242 @@
+#logo {
+	svg {
+		position: absolute;
+	}
+	@media (min-width: 680px) {
+		display: none;
+	}
+}
+
+.header {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	@media (min-width: 680px) {
+		position: fixed;
+	}
+	display: block;
+	width: 100%;
+	height: 50px;
+	top: 0;
+	background: url(../img/backgrounds/ARCADE-STUDIOS-HEADER-BG.jpg) top center no-repeat; 
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	transition: .4s all ease-in;
+	&.in {
+		background: rgba(white,0.5);
+	}
+	/*&.reverse {
+		background: black;
+		ul.main-menu li a {
+			color: $magenta;
+		}
+		ul.main-menu li a:hover {
+			color: white;
+		}
+	}*/
+	z-index: 1;
+}
+.header-home {
+	top: -100px;
+}
+
+.arcade-logo {
+	height: 50px;
+	width: 100px;
+	/*background: url(../img/arcade-logo.png) 0 0 no-repeat;*/
+	/*background: url(../img/arcadeicon-128.png) 0 0 no-repeat;*/
+	-webkit-background-size: 75% 75%;
+	-moz-background-size: 75% 75%;
+	-o-background-size: 75% 75%;
+	background-size: 75% 75%;
+	background-position: 12px 12px;
+	margin-left: 0;
+	text-indent: -9999px;
+	float: left;
+	padding: 0;
+	&.home {
+		display: none;
+	}
+	@media (min-width: 680px) {
+		margin-left: 40px;
+		display: block;
+		&.home {
+			display: block;
+		}
+	}
+	&:hover {
+		svg g path {
+			fill: $magenta;
+		}
+	}
+	
+}
+.main-nav {
+	position: absolute;
+	top: 50px;
+	display: block;
+	width: 100%;
+	z-index: 100;
+	@media (min-width:480px) {
+		top: 0;	
+	}
+	@media (min-width:680px) {
+		top: 3px;
+		margin: 0;
+	}
+}
+
+ul.main-menu {
+	font-family: "typograph_prosemibold",Helvetica,sans-serif;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: -100%;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 1em;
+	float: none;
+	margin: 0;
+	padding: 0;
+	background: url(../img/backgrounds/MASTER-BG-005-phone.jpg) center center no-repeat;
+	background-size: 100% 100%;
+	transition: all .2s ease-in-out;
+	@media (min-width: 680px) {
+		left: 0;
+		width: 500px;
+		background: transparent;
+		position: relative;
+		height: 33px;
+		font-size: .70em;
+		float: left;
+		margin: 0;
+	}
+
+	li {
+		float: none;
+		display: block;
+		padding: 0;
+		list-style-type: none;
+		text-align: left;
+		transition: .2s all ease-out;
+		width: 100%;
+		font-size: 2em;
+		@media (min-width: 680px) {
+			float: left;
+			text-align: center;
+			width: auto;
+			font-size: 1.3em;
+		}
+		a {
+			display: block;
+			text-transform: uppercase;
+			background: $magenta;
+			color: white;
+			text-align: center;
+			margin-bottom: .2em;
+			color: black;
+			padding: .5em;
+			&:hover {
+				background: $magenta;
+				color: white;
+			}
+			@media (min-width: 680px) {
+				padding: 1em 1.3em;
+				color: #444;
+				text-align: left;
+				margin-bottom: 0;
+				background: transparent;
+				&:hover {
+					background: $magenta;
+					color: white;
+				}
+			}
+		}
+		h3 {
+			padding: .5em;
+			text-transform: uppercase;
+			color: white;
+			&.hover {
+				text-align: center;
+			}
+			@media (min-width: 680px) {
+				display: none;
+			}
+		}
+		img.menu-logo {
+			@media (min-width: 680px) {
+				display: none;
+			}
+		}
+	}
+	.menu-logo {
+		width: 80px;
+		margin: .6em auto;
+		display: block;
+	}
+}
+
+.exit {
+	/*font-family: "typograph_prosemibold",Helvetica,sans-serif;
+	font-size: 34px;*/
+	background: white url(../img/arcade-close-btn.png) center center no-repeat;
+	background-size: 90%;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: white;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	border-radius: 50%;
+	&:hover {
+		cursor: pointer;
+	}
+	@media (min-width: 680px) {
+		display: none;
+	}
+}
+
+ul.main-menu.open {
+	left: 0;
+}
+
+ul.main-menu li a.menu-home-btn {
+	background: transparent;
+	padding: 0;
+	display: block;
+	min-height: 45px;
+	text-align: left;
+}
+
+.hamburger {
+	position: absolute;
+	display: block;
+	background: transparent;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	z-index: 101;
+	transition: .2s all ease-out;
+	@media (min-width: 680px) {
+		display: none;
+	}
+}
+
+#menu-logo.home{
+	display: block;
+}
+ul.main-menu li a.menu-home-btn {
+	text-align: center;
+}
+
+#close-menu, #exit-featured, .exit-featured {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	display: none;
+}

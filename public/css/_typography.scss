@@ -1,0 +1,29 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+    font-family: 'typograph_prosemibold';
+    src: url('../fonts/typograph-pro/typograph_pro_semi_bold-webfont.eot');
+    src: url('../fonts/typograph-pro/typograph_pro_semi_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/typograph-pro/typograph_pro_semi_bold-webfont.woff') format('woff'),
+         url('../fonts/typograph-pro/typograph_pro_semi_bold-webfont.ttf') format('truetype'),
+         url('../fonts/typograph-pro/typograph_pro_semi_bold-webfont.svg#typograph_prosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'typograph_prolight';
+    src: url('../fonts/typograph-pro/typograph_pro_light-webfont.eot');
+    src: url('../fonts/typograph-pro/typograph_pro_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/typograph-pro/typograph_pro_light-webfont.woff') format('woff'),
+         url('../fonts/typograph-pro/typograph_pro_light-webfont.ttf') format('truetype'),
+         url('../fonts/typograph-pro/typograph_pro_light-webfont.svg#typograph_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.jubilat {
+	font-family: "jubilat",sans-serif;
+}

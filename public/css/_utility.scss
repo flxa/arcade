@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+::selection {
+	background: $magenta; /* Safari */
+	color: white;
+}
+::-moz-selection {
+	background: $magenta; /* Firefox */
+	color: white;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.block-text {
+	padding: 1em 1em;
+	font-family: "jubilat",sans-serif;
+	&.bold {
+		font-family: "typograph_prosemibold",Helvetica,sans-serif;
+	}
+}
+
+.hidden {
+	position: absolute;
+	display: none;
+	visibility: hidden;
+}
+
+.kern-t {
+	position: relative;
+}
+.kern-a {
+	position: relative;
+	left:-1px;
+}
+.kern-c {
+	position: relative;
+	left:-1px;
+}
+.kern-t2 {
+	position: relative;
+	left:-1px;
+}

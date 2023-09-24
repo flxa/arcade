@@ -1,0 +1,326 @@
+.large-trans-btn {
+	position: relative;
+	background: transparent url(../img/arcade-studios-neon-log-strip-smaller.jpg) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	border: none;
+	width: 100%;
+	font-size: 1em;
+	font-family: "typograph_prolight",Helvetica,sans-serif;
+	padding: 0;
+	display: block;
+	text-align: center;
+	color: #555;
+	&:hover {
+		color: $magenta;
+	}
+}
+
+.vid-btn-msg-hurley, .vid-btn-msg-urthboy, .vid-btn-msg-home, .vid-btn-msg-coke, .vid-btn-msg-ivy, .vid-btn-msg-cca, .vid-btn-msg-big-village {
+	background: url(../img/large-image-strips-007.jpg) top center no-repeat;
+	background-size: cover;
+	height: auto;
+	min-height: 31em;
+	color: white;
+	margin-bottom: 0;
+	cursor: pointer;
+	p {
+		position: absolute;
+		padding: 5%;
+		width: 100%;
+		@media (min-width: 600px) {
+			width: 60%;
+		}
+		@media (min-width: 900px) {
+			width: 40%;
+		}
+	}
+	button.vid-btn {
+		background: transparent;
+		color: white;
+		font-size: 1em;
+		border: 1px solid white;
+		padding: .4em;
+		position: relative;
+		float: right;
+		top: 27em;
+		left: -1em;
+		@media (min-width: 900px) {
+			font-size: 1.5em;
+			border: 2px solid white;
+			top: 17em;
+		}
+	}
+	&:hover {
+		button.vid-btn {
+			//background: $magenta;
+			//border-color: $magenta;
+			//color: $magenta;
+			cursor: pointer;
+		}
+	}
+}
+
+.vid-btn-msg-urthboy {
+	background: url(../img/home2.jpg) top center no-repeat;
+	background-size: cover;
+}
+.vid-btn-msg-home {
+	background: url(../img/arcade-studios-home-small.jpg) top center no-repeat;
+	background-size: cover;
+	background-position: center top;
+	min-height: 16em;
+	margin-bottom: 0;
+	@media (min-width: 420px) {
+		min-height: 20em;
+	}
+	@media (min-width: 520px) {
+		min-height: 27em;
+	}
+	@media (min-width: 680px) {
+		background: url(../img/arcade-studios-neon-log-strip-smaller.jpg) top center no-repeat;
+		background-position: center top;
+		min-height: 23em;
+	}
+	@media (min-width: 900px) {
+		background: url(../img/arcade-studios-neon-log-strip-smaller.jpg) top center no-repeat;
+		background-size: cover;
+		background-position: center top;
+		min-height: 35em;
+	}
+	@media (min-width: 1400px) {
+		min-height: 40em;
+	}
+	@media (min-width: 1400px) {
+		min-height: 50em;
+	}
+	button.vid-btn-main {
+		top: 12em;
+		/*color: $magenta;
+		border-color: $magenta;*/
+		@media (min-width: 420px) {
+			top: 16em;
+		}
+		@media (min-width: 520px) {
+			top: 23em;
+		}
+		@media (min-width: 680px) {
+			top: 19em;
+		}
+		@media (min-width: 900px) {
+			top: 20em;
+		}
+		@media (min-width: 1400px) {
+			top: 29.5em;
+		}
+	}
+}
+
+.vid-btn-msg-coke {
+	background: url(../img/coke-share-wide-thumb.jpg) top center no-repeat;
+	background-size: cover;
+}
+.vid-btn-msg-ivy {
+	background: url(../img/Ivy-events-wide-thumb.jpg) top center no-repeat;
+	background-size: cover;
+}
+.vid-btn-msg-cca {
+	background: url(../img/CCA-wide-thumb.jpg) top center no-repeat;
+	background-size: cover;
+}
+.vid-btn-msg-big-village {
+	background: url(../img/Big-village-this-is-that.jpg) top center no-repeat;
+	background-size: cover;
+}
+
+.fullwidth-image {
+	width: 100%;
+	z-index: -1;
+	display: block;
+}
+
+.feature-image {
+	width: 100%;
+	margin-top: 50px;
+	z-index: -1;
+	display: block;
+}
+
+/* whatch out for this, its featured-video on the element */
+.feature-video {
+	display: block;
+	width: 100%;
+}
+
+.video-container {
+	@extend .clearfix;
+}
+
+.grid-video-2-1 {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 180px;
+	padding: .4em;
+	position:relative;
+	@media (min-width: 500px) {
+		width: 50%;
+	}
+	@media (min-width: 580px) {
+		width: 100%;
+		height: 300px;
+	}
+	@media (min-width: 800px) {
+		width: 50%;
+		height: 250px;
+	}
+}
+
+.thumb-link {
+	display: block;
+	float: left;
+	width: 40%;
+	.play-text {
+		position: absolute;
+		text-indent: -10px;
+		opacity: 0;
+		font-size: 1em;
+		text-transform: uppercase;
+		color: white;
+		margin: 1em;
+		display: block;
+		text-align: left;
+		max-width: 80%;
+		@media (min-width: 580px) {
+			max-width: 37%;
+		}
+		@media (min-width: 680px) {
+			max-width: 27%;
+		}
+		transition: .3s all ease-in-out;
+		.attr-sml {
+			font-size: .6em;
+			display: block;
+			color: darken(white,10%);
+			em {
+				color: lighten($magenta,10%);
+			}
+			@media (min-width: 580px) {
+			
+			}
+			@media (min-width: 680px) {
+			
+			}
+		}
+	}
+	&:hover {
+		background-position: #444;
+		background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.4) 60%, transparent );
+		transition: .5s all ease-in-out;
+		z-index: 2;
+		img {
+			z-index: -1;
+			position: relative;
+		}
+		.play-text {
+			opacity: 1;
+			text-indent: 0px;
+		}
+	}
+}
+
+.grid-video-2-2 {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 180px;
+	padding: .4em;
+	@media (min-width: 500px) {
+		/*width: 50%;*/
+	}
+	@media (min-width: 580px) {
+		height: 300px;
+	}
+	@media (min-width: 800px) {
+		height: 500px;
+	}
+}
+
+.grid-footer {
+	@extend .clearfix;
+	.half {
+		width: 50%;
+		float: left;
+	}
+	a {
+		color: white;
+	}
+}
+
+.fullscreen {
+	position: fixed;
+	z-index: 999999;
+	width: 32em;
+	height: 13em;
+	@media (min-width: 480px) {
+		width: 32em;
+		height: 18em;
+	}
+	@media (min-width: 640px) {
+		width: 43em;
+		height: 24em;
+	}
+	@media (min-width: 960px) {
+		width: 56em;
+		height: 32em;
+	}
+	@media (min-width: 1400px) {
+		width: 80em;
+		height: 45em;
+	}
+	max-width: 100%;	
+	margin: 60px auto 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: black;
+	box-shadow: 0 0 10px #444;
+	iframe {
+		width: 100%; /* 480px / 16 */ 
+		height: 100%; /* 270px / 9 */
+		@media (min-width: 680px) {
+			width: 100%; /* 480px / 16 */ 
+			height: 100%; /* 270px / 9 */
+		}
+		
+		/*max-height: 200px;
+		@media (min-width: 480px) {
+			max-height: 300px;
+		}
+		@media (min-width: 680px) {
+			max-height: 400px;
+		}
+		@media (min-width: 768px) {
+			max-height: 500px;
+		}
+		@media (min-width: 960px) {
+			max-height: 600px;
+		}
+		@media (min-width: 1200px) {
+			max-height: 800px;
+		}
+		*/
+	}
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	z-index: 1001;
+}

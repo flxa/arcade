@@ -1,0 +1,38 @@
+#sky.animate {
+	-webkit-animation-name: sky;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 0;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+
+	-moz-animation-name: sky;
+	-moz-animation-duration: 10s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-iteration-count: 1;	
+	-moz-animation-direction: normal;
+	-moz-animation-delay: 0;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode: forwards;
+	
+	-ms-animation-name: sky;
+	-ms-animation-duration: 10s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-iteration-count: 1;	
+	-ms-animation-direction: normal;
+	-ms-animation-delay: 0;
+	-ms-animation-play-state: running;
+	-ms-animation-fill-mode: forwards;
+
+	animation-name: sky;
+	animation-duration: 10s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;	
+	animation-direction: normal;
+	animation-delay: 0;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+
+}

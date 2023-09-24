@@ -1,0 +1,52 @@
+.contact-form {
+	margin-bottom: 2em;
+}
+
+.contact-input, .contact-input-textarea {
+	width: 100%;
+	padding: 1em;
+	font-size: 16px !important;
+	border: 1px solid white;
+	color: $magenta;
+	background: transparent; 
+	border-radius: 4px;
+	margin-bottom: 1em;
+	&:focus {
+		outline: 0;
+		border: 1px solid #da4d9e;
+	}
+}
+.contact-input-textarea {
+	min-height: 300px;
+}
+.contact-send {
+	width: 100%;
+	padding: 1em;
+	font-size: 1em;
+	border: 0;
+	background: $magenta;
+	border-radius: 4px;
+	color: white;
+	display: block;
+	&:hover {
+		cursor: pointer;
+		background: darken($magenta,10%);
+	}
+	&:focus {
+		outline: 0;
+		background: darken($magenta,20%);
+	}
+}
+
+#contactResponse {
+	margin-bottom: 3em;
+	padding: 1em;
+	background: white;
+	border-radius: 4px;
+	color: $magenta;
+	display: none;
+}
+
+.contactErr {
+	border-color: #a0216a;
+}

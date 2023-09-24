@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://www.arcadestudios.com.au/</loc>
+  <lastmod>2014-06-16T04:42:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.arcadestudios.com.au/index.html</loc>
+  <lastmod>2014-06-16T04:42:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.arcadestudios.com.au/work.html</loc>
+  <lastmod>2014-06-16T04:42:50+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.arcadestudios.com.au/clients.html</loc>
+  <lastmod>2014-06-16T04:48:39+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.arcadestudios.com.au/about.html</loc>
+  <lastmod>2014-06-16T04:42:48+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.arcadestudios.com.au/hello.html</loc>
+  <lastmod>2014-06-17T16:40:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.arcadestudios.com.au/downloads/ARCADE-STUDIOS-Client-Briefing-Form.docx</loc>
+  <lastmod>2014-06-16T04:44:41+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.arcadestudios.com.au/downloads/ARCADE-STUDIOS-Script-template.docx</loc>
+  <lastmod>2014-06-16T04:44:41+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.arcadestudios.com.au/downloads/ARCADE-STUDIOS-Storyboard-template.docx</loc>
+  <lastmod>2014-06-16T04:44:41+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>

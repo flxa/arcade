@@ -1,0 +1,40 @@
+.team-container {
+	display: block;
+	.team-member {
+		margin: 2em auto;
+		padding: .5em;
+		min-height: 200px;
+		background: $magenta;
+		@extend .clearfix;
+		.headshot {
+			width: 200px;
+			height: 200px;
+			background: grey;
+			margin: 0 auto;
+			@media (min-width: 580px) {
+				margin:0;
+				float: left;
+			}
+		}
+		.bio {
+			color: white;
+			padding: 1em;
+			@media (min-width: 580px) {
+				padding-left: 210px;
+			}
+			h3 {
+				font-size: 1.5em;
+				line-height: 1.9;
+				font-family: "typograph_prosemibold",Helvetica,sans-serif;
+				text-transform: uppercase;
+				span {
+					text-transform: capitalize;
+				}
+			}
+			p {
+				line-height: 1.9;
+				font-family: "jubilat",sans-serif;
+			}
+		}
+	}
+}

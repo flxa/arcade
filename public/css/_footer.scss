@@ -1,0 +1,151 @@
+.footer {
+	position: fixed;
+	bottom: 0;
+	right: 100%;
+	width: 100%;
+	transition: .2s all linear;
+	margin: 1em;
+	margin-right: auto;
+	text-align: center;
+	@media (min-width: 680px) {
+		position: relative;
+		bottom: auto;
+		right: auto;
+		width: auto;
+		text-align: left;
+		display: none;
+		&.home {
+			display: block;
+		}
+	}
+	&.open {
+		right: 0;
+		z-index: 1001;
+	}
+	.social {
+		position: relative;
+		display:block;
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		text-indent: -9999px;
+		opacity: 1;
+		margin-bottom: 10px; 
+		&.facebook {
+			background: url(../img/social-icons/facebook.png) 0 0 no-repeat;
+			background-color: $magenta;
+			background-size: 80%;
+			background-position: center;
+		}
+		&.google {
+			background: url(../img/social-icons/google.png) 0 0 no-repeat;
+			background-color: $magenta;
+			background-size: 80%;
+			background-position: center;
+		}
+		&.instagram {
+			background: url(../img/social-icons/instagram.png) 0 0 no-repeat;
+			background-color: $magenta;
+			background-size: 80%;
+			background-position: center;
+		}
+		&.vimeo {
+			background: url(../img/social-icons/vimeo.png) 0 0 no-repeat;
+			background-color: $magenta;
+			background-size: 80%;
+			background-position: center;
+		}
+		&.youtube {
+			background: url(../img/social-icons/youtube.png) 0 0 no-repeat;
+			background-color: $magenta;
+			background-size: 80%;
+			background-position: center;
+		}
+		&:hover {
+			opacity: .8;
+		}
+		@media (min-width: 680px) {
+			display: inline-block;
+		}
+		background-position: center center;
+	}
+	h4 {
+		display: none;
+		line-height: 50px;
+		vertical-align: bottom;
+		margin-left: 2em;
+		font-family: "typograph_prosemibold",Helvetica,sans-serif;
+		.whitetext {
+			color: white;
+		}
+		.silvertext {
+			color: #555;
+		}
+		@media (min-width: 680px) {
+			display: inline-block;
+			font-size: 1em;
+		}
+		@media (min-width: 800px) {
+			font-size: 1.1em;
+		}
+	}
+}
+
+footer.site-footer {
+	background: #444;
+	color: white;
+	width: 100%;
+	@media (min-width: 480px) {
+		padding: 1em 2em;
+	}
+	@media (min-width: 680px) {
+		padding: 1em 8em;
+	}
+	@media (min-width: 1000px) {
+		width: 100%;
+		padding: 1em 10%;
+	}
+	@media (min-width: 1200px) {
+		padding: 1em 15%;
+	}
+	@media (min-width: 1400px) {
+		padding: 1em 20%;
+	}
+	@media (min-width: 1600px) {
+		padding: 1em 22.5%;
+	}
+	.grid-footer {
+		.half {
+			width: 100%;
+			@media (min-width: 580px) {
+				width: 50%;
+				float: left;
+				&:nth-child(even) {
+					padding-left: 1em;
+				}
+				&:nth-child(odd) {
+					padding-right: 1em;
+					text-align: right;
+				}
+			}
+			@media (min-width: 1000px) {
+				padding: 1em;
+			}
+			.tel {
+				font-size: 38px;
+			}
+			p {
+				margin-bottom: 1em;
+			}
+			a.menu {
+				font-weight: 100;
+				display: block;
+				font-size: 1.2em;
+				line-height: 2;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

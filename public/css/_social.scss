@@ -1,0 +1,47 @@
+.social {
+	position: relative;
+	display:block;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-indent: -9999px;
+	opacity: 1;
+	margin-bottom: 10px; 
+	&.facebook {
+		background: url(../img/social-icons/facebook.png) 0 0 no-repeat;
+		background-color: $magenta;
+		background-size: 80%;
+		background-position: center;
+	}
+	&.google {
+		background: url(../img/social-icons/google.png) 0 0 no-repeat;
+		background-color: $magenta;
+		background-size: 80%;
+		background-position: center;
+	}
+	&.instagram {
+		background: url(../img/social-icons/instagram.png) 0 0 no-repeat;
+		background-color: $magenta;
+		background-size: 80%;
+		background-position: center;
+	}
+	&.vimeo {
+		background: url(../img/social-icons/vimeo.png) 0 0 no-repeat;
+		background-color: $magenta;
+		background-size: 80%;
+		background-position: center;
+	}
+	&.youtube {
+		background: url(../img/social-icons/youtube.png) 0 0 no-repeat;
+		background-color: $magenta;
+		background-size: 80%;
+		background-position: center;
+	}
+	&:hover {
+		opacity: .8;
+	}
+	@media (min-width: 680px) {
+		display: inline-block;
+	}
+	background-position: center center;
+}

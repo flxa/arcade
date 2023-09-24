@@ -1,0 +1,151 @@
+input[type='text'],input[type='number'],input[type='tel'],input[type='email'], textarea, input[type='button'], input[type='submit'] {
+	font-size:16px;
+	-webkit-appearance: none;
+}
+
+html, body {
+	position: absolute;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-size: 14px;
+	font-family: "jubilat",sans-serif;
+}
+
+a {
+	color: $magenta;
+	text-decoration: none;
+	&:hover {
+		color: darken($magenta,10%);
+	}
+}
+
+blockquote {
+	padding: 1em;
+	background: #444;
+	font-family: "typograph_prolight",Helvetica,sans-serif;
+	color: white;
+	font-size: 2em;
+	margin: 1em;
+	margin-left: 0;
+	letter-spacing: .2px;
+	width: 100%;
+	@media (min-width: 480px) {
+		padding-bottom: 1.5em;
+	}
+	@media (min-width: 680px) {
+		padding: 1.5em 4em;
+	}
+	@media (min-width: 1000px) {
+		padding: 1.5em 6em 1em 4em;
+	}
+	@media (min-width: 1200px) {
+		padding: 1.5em 9em 1.5em 7em;
+	}
+	@media (min-width: 1400px) {
+		padding: 2em 13em 2em 11em;
+	}
+	@media (min-width: 1600px) {
+		padding: 2em 15em 2em 13em;
+	}
+}
+cite {
+	float: none;
+	display: block;
+	padding-top: 1em;
+	font-size: .5em;
+	color: white;
+	text-align: right;
+	font-family: "typograph_prolight",Helvetica,sans-serif;
+	@media (min-width: 480px) {
+		padding-top: 0;
+		float: right;
+		display: block;
+	}
+	&.home-quote {
+		font-size:14px;
+		font-family: "jubilat",sans-serif;
+	}
+}
+
+.content.notop {
+	margin-top: 0;
+}
+.content.nobottom {
+	margin-bottom: 0;
+}
+
+.home-page, .services-page, .work-page, .contact-page, .clients-page, .about-page {
+	background: url(../img/backgrounds/MASTER-BG-005-phone.jpg) top center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	@media (min-width: 1000px) {
+		background: url(../img/backgrounds/MASTER-BG-005-desktop.jpg) top center no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+}
+
+.content {
+	margin-top: 60px;
+	h1 {
+		/*background: $magenta;*/
+		color: $magenta;
+		text-transform: uppercase;
+		width: auto;
+		display: inline-block;
+		padding: 0;
+		margin-bottom: 1em;
+		font-weight: 200;
+		font-family: "typograph_prosemibold",Helvetica,sans-serif;
+		font-size: 1.5em;
+		line-height: 2;
+	}
+	h2 {
+		line-height: 2;
+		color: black;
+		font-weight: bold;
+		margin-bottom: .5em;
+		font-weight: bold;
+		font-family: "typograph_prosemibold",Helvetica,sans-serif;
+	}
+	p {
+		line-height: 2;
+		font-family: "jubilat",sans-serif;
+		font-size: 16px;
+	}
+	section {
+		display: block;
+		margin-bottom: 2em;
+	}
+}
+
+ul.list {
+    list-style: none;
+    padding:0;
+    margin:0;
+	line-height: 1.7;
+	font-size: 1.1em;
+	list-style: circle purple;
+	li { 
+	    padding-left: 1em; 
+	    text-indent: -.7em;
+	}
+
+	li:before {
+	    content: "• ";
+	    color: #444; /* or whatever color you prefer */
+	 }
+}
